@@ -185,9 +185,13 @@ No roadmap or release schedule is published in the repository.
 
 ## Contact and community
 
-- **Author credited in the original README:** Muhammad Attayab Ashraf
-- **Repository maintainer account:** [@Attayab-31](https://github.com/Attayab-31)
-- **Questions and bug reports:** [open a GitHub issue](https://github.com/Attayab-31/Pakistan-Election-Prediction-2024/issues)
-- **Contributions:** use a focused branch and pull request, and include data provenance for any dataset changes.
+- **Author:** Muhammad Attayab Ashraf
+- **WhatsApp:** [+92 317 4026038](https://wa.me/923174026038)
+- **Email:** [attayabpc2@gmail.com](mailto:attayabpc2@gmail.com)
+- **LinkedIn:** [Muhammad Attayab Ashraf](https://pk.linkedin.com/in/muhammad-attayab-ashraf-519562262)
+- **Freelancer:** [MuhammadAttayab](https://www.freelancer.com/u/MuhammadAttayab)
+- **Issues and feature requests:** [GitHub Issues](https://github.com/Attayab-31/Pakistan-Election-Prediction-2024/issues)
+- **Source and contributions:** [Repository](https://github.com/Attayab-31/Pakistan-Election-Prediction-2024)
+- **Support the project:** ? Star [Personality Predictor](https://github.com/Attayab-31/Pakistan-Election-Prediction-2024)
 
-Issues are enabled on the repository. GitHub Discussions, contribution guidelines, and a code of conduct are not currently configured.
+GitHub Discussions, contribution guidelines, and a code of conduct are not currently configured.
