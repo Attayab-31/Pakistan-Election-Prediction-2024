@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 470" role="img" aria-labelledby="title desc">
+  <title id="title">Pakistan Election Prediction 2024 data pipeline</title>
+  <desc id="desc">Historical election data, surveys, constituency files, and precomputed social signals feed Python scoring code. Weighted candidate scores are used to select constituency winners and write CSV results.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#092b2b"/>
+      <stop offset="1" stop-color="#10201f"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#80d7b2"/>
+      <stop offset="1" stop-color="#39a98d"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#b7ead1" stroke-opacity=".055" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="470" rx="28" fill="url(#bg)"/>
+  <rect width="1200" height="470" rx="28" fill="url(#grid)"/>
+  <circle cx="1110" cy="72" r="170" fill="#43b994" opacity=".055"/>
+  <circle cx="80" cy="430" r="190" fill="#43b994" opacity=".045"/>
+
+  <text x="64" y="65" fill="#91dbbb" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="3">RESEARCH PIPELINE · PAKISTAN GENERAL ELECTION 2024</text>
+  <text x="64" y="126" fill="#f1f6ef" font-family="Segoe UI, Arial, sans-serif" font-size="42" font-weight="700">From source data to</text>
+  <text x="64" y="176" fill="#f1f6ef" font-family="Segoe UI, Arial, sans-serif" font-size="42" font-weight="700">constituency-level scores</text>
+  <text x="66" y="211" fill="#bfd0c6" font-family="Segoe UI, Arial, sans-serif" font-size="16">A local Python analysis that combines stored election and polling inputs.</text>
+
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <rect x="64" y="264" width="244" height="126" rx="16" fill="#112f2e" stroke="#3b6d5c"/>
+    <text x="86" y="294" fill="#91dbbb" font-size="12" font-weight="700" letter-spacing="1.5">INPUT FILES</text>
+    <text x="86" y="325" fill="#f1f6ef" font-size="17" font-weight="600">History · polls</text>
+    <text x="86" y="352" fill="#f1f6ef" font-size="17" font-weight="600">Constituencies · JSON</text>
+    <text x="86" y="375" fill="#a9c1b5" font-size="12">Local CSV and JSON data</text>
+
+    <path d="M324 327h62" fill="none" stroke="#70cba6" stroke-width="2"/>
+    <path d="m378 319 10 8-10 8" fill="none" stroke="#70cba6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <rect x="404" y="264" width="284" height="126" rx="16" fill="#153a34" stroke="#549878"/>
+    <text x="428" y="294" fill="#91dbbb" font-size="12" font-weight="700" letter-spacing="1.5">PYTHON SCORING</text>
+    <text x="428" y="326" fill="#f1f6ef" font-size="17" font-weight="600">Preprocess and combine</text>
+    <text x="428" y="352" fill="#f1f6ef" font-size="17" font-weight="600">candidate signals</text>
+    <text x="428" y="375" fill="#a9c1b5" font-size="12">Weighted scores → top candidate</text>
+
+    <path d="M704 327h62" fill="none" stroke="#70cba6" stroke-width="2"/>
+    <path d="m758 319 10 8-10 8" fill="none" stroke="#70cba6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <rect x="784" y="264" width="352" height="126" rx="16" fill="#f1f6ef"/>
+    <text x="810" y="294" fill="#27745d" font-size="12" font-weight="700" letter-spacing="1.5">FILES WRITTEN BY THE PIPELINE</text>
+    <text x="810" y="328" fill="#14312c" font-family="Consolas, monospace" font-size="15" font-weight="700">results/final_result.csv</text>
+    <text x="810" y="354" fill="#14312c" font-family="Consolas, monospace" font-size="14">data/results/result_party.csv</text>
+    <text x="810" y="377" fill="#547168" font-size="12">No web app or live API is included.</text>
+  </g>
+
+  <rect x="64" y="420" width="1072" height="1" fill="#b7ead1" opacity=".22"/>
+  <text x="64" y="446" fill="#a9c1b5" font-family="Segoe UI, Arial, sans-serif" font-size="12">Illustration of the checked-in code path · not a screenshot or live-service diagram</text>
+  <g transform="translate(1083 433)" fill="none" stroke="url(#accent)" stroke-width="2">
+    <path d="M0 12V0M10 12V5M20 12V-2M30 12V2" stroke-linecap="round"/>
+  </g>
+</svg>

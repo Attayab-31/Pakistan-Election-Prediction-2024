@@ -1,0 +1,6 @@
+bayesian-optimization==0.6.0
+matplotlib==3.8.2
+numpy==1.26.3
+pandas==2.2.0
+scipy==1.11.4
+tqdm==4.66.1

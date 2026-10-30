@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+venv/
+env/
+.venv/
+genv/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# IDE and operating system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Generated outputs and temporary files
+*.log
+*.tmp
+GE2024/data/Perevious_Results/election_result123.csv
